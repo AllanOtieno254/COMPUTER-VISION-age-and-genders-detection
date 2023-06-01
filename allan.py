@@ -2,7 +2,7 @@ import cv2
 from deepface import DeepFace
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml')
-path = r'C\users\user\pictures\allano2.jpg'
+path = r'C\users\user\Documents\MYPHOTOS\allan2.jpg'
 img = cv2.imread(path)
 
 # Estimate age and gender
